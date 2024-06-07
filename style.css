@@ -130,7 +130,7 @@ body{
 }
 
 .slider{
-    overflow-x: auto;
+    overflow: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
     -ms-overflow-style: none;
