@@ -17,7 +17,6 @@
 }
 
 html{
-    scroll-behavior: smooth;
     overflow-x: hidden;
     font-size: 62.5%;
 }
@@ -137,10 +136,6 @@ body{
 	scrollbar-width: none;
     display: flex;
     gap: 10rem;
-}
-
-.slider::-webkit-scrollbar {
-	display: none;
 }
 
 .slide{
@@ -410,6 +405,8 @@ body{
 }
 
 .footer-section {
+    display: flex;
+    flex-direction: column;
     flex: 1;
     margin: 0 1rem;
 }
@@ -423,7 +420,7 @@ body{
 
 .footer-section p, .footer-section a {
     font-family: var(--secondary-font);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 0.5rem 0;
     color: #f0f0f0;
     text-decoration: none;
